@@ -18,4 +18,7 @@ if (
 
 const variavelNumerica = '2';
 
-if (variavelNumerica == 2 && variavelNumerica === 2) console.log(`data:${variavelNumerica}`);
+if (variavelNumerica === 2 && variavelNumerica === 2) {
+    console.info('data 22');
+    console.info(`data:${variavelNumerica}`);
+}
